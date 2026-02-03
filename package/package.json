@@ -1,11 +1,13 @@
 {
-  "name": "@overextended/ox_lib",
+  "name": "@projectstarboy/ox_lib",
   "author": "Overextended",
   "version": "1.0.0",
   "description": "JS/TS wrapper for ox_lib exports",
   "main": "./shared/index.js",
   "types": "./shared/index.d.ts",
-  "sideEffects": ["./shared/resource/locale/index.js"],
+  "sideEffects": [
+    "./shared/resource/locale/index.js"
+  ],
   "scripts": {
     "compile": "tsc",
     "prepare": "npm run compile"
